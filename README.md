@@ -4,6 +4,7 @@
 A claustrophobic Thief finds himself trapped in a nightmarish cave, can he escape?
 Make your way through this endless cave and look for the treasure to pass into the next level!
 Avoid enemies and break through the cave walls to carve your path!
+[Heres the Itch.io link to the game](https://g-r-s.itch.io/endless-cave)
 
 ## The player:
 * Move using the Arrow Keys or mouse.
