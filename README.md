@@ -19,6 +19,20 @@ Avoid enemies and break through the cave walls to carve your path!
 
 ## In regards to the task:
 This game is for sections E and F in the homework pdf.
-I edited nearly every script, so I won't add this here, all commented.
+
+### I edited the following files (Usually means addition or altering of methods):
+* [Target mover](https://github.com/gamedev-srg/Endless-Cave/blob/main/Assets/Scripts/2-player/TargetMover.cs) - added some Set method, namely the setSpeed and setTarget methods
+* [KeyboardMoverByTile](https://github.com/gamedev-srg/Endless-Cave/blob/main/Assets/Scripts/2-player/KeyboardMoverByTile.cs) and [KeyboardMover](https://github.com/gamedev-srg/Endless-Cave/blob/main/Assets/Scripts/2-player/KeyboardMover.cs) - Enabled the user to move continuously by holding the movement buttons, and limited the movement speed.
+* [Radius watcher](https://github.com/gamedev-srg/Endless-Cave/blob/main/Assets/Scripts/3-enemies/RadiusWatcher.cs) - added set method to easily and dynamically change values inside.
+* [Tilemap Cave Generator](https://github.com/gamedev-srg/Endless-Cave/blob/main/Assets/Scripts/4-generation/TilemapCaveGenerator.cs) - Added the GenerateMap method, to generate the tilemap easily from outside classes, added there several tweaking options and an option whether or not to increase the level, or not.
+
+### I added the following files:
+* [Enemy Generator](https://github.com/gamedev-srg/Endless-Cave/blob/main/Assets/Scripts/3-enemies/EnemyGenerator.cs) - to easily add enemies in certain locations, with opetions to change settings (Which enemies, locations etc..)
+* [Health System](https://github.com/gamedev-srg/Endless-Cave/blob/main/Assets/Scripts/2-player/HealthSystem.cs) - Simple health system to control player health and indicate damage taken.
+* [WinAndPass](https://github.com/gamedev-srg/Endless-Cave/blob/main/Assets/Scripts/2-player/WinAndPass.cs) - Level passing system attached to a certian object, deals with generation,passing,and restarting levels.
+* [Mine Rocks](https://github.com/gamedev-srg/Endless-Cave/blob/main/Assets/Scripts/2-player/MineRocks.cs) - Allows player to Destory objects and replace them(Can change what to mine, and what to replace with) at the cost of movement speed.
+
+
 I experienced some performence issues playing on the web, in the editor it was fine.
+
 
